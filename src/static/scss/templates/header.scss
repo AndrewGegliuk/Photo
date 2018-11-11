@@ -1,0 +1,76 @@
+.section__hero{
+    background-image: url('../../img/bacground-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.header__logo{
+    padding: 20px;
+}
+
+.logo{
+    
+}
+
+.main__menu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(170, 169, 169);
+    
+}
+
+.nav__list{
+    display: flex;
+    padding: 20px;
+    .nav__item{
+        margin-right: 25px;
+    }
+}
+
+.title__desc{
+    position: relative;
+}
+.description{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 150px;
+    line-height: 10px;
+}
+
+.name{
+    font-size: 5rem;
+}
+
+span{
+    font-size: 2rem;
+}
+
+.doted{
+  position: absolute;
+  padding: 2.25em 1.6875em;
+  background-image: repeating-radial-gradient(center center, rgba(126, 125, 125, 0.2), rgba(126, 125, 125, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(126, 125, 125, 0.2), rgba(126, 125, 125, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(126, 125, 125, 0.2), rgba(126, 125, 125, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rrgba(126, 125, 125, 0.2), rgba(126, 125, 125, 0.2) 1px, transparent 1px, transparent 100%);
+  background-size: 5px 5px;
+  background-size: 5px 5px;
+  background-size: 5px 5px;
+  
+  width:30%;
+  height: 350px;
+  margin-left: -100px;
+  margin-top: 100px;
+}
+
+.doted::after{
+    content: '';
+
+    position: absolute;
+    border: 5px solid #333333;
+    width: 40%;
+    height: 265px;
+    margin-left: 130px;
+}
+
+
